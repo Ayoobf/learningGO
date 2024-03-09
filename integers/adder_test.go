@@ -13,7 +13,7 @@ func Add(x, y int) int {
 func ExampleAdd(){
 	sum := Add(1,5)
 	fmt.Println(sum)
-	//Output: 6
+	//Output: 6x
 }
 
 func TestAdder(t *testing.T) {
