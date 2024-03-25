@@ -31,7 +31,7 @@ func TestRacer(t *testing.T) {
 
 		defer server.Close()
 
-		_, err := ConfigurableRacer(server.URL, server.URL, 20*time.Millisecond)
+		_, err := ConfigurableRacer2(server.URL, server.URL, 20*time.Millisecond)
 
 		if err == nil {
 			t.Errorf("expected err but didnt get one")
